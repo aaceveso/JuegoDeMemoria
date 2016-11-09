@@ -47,6 +47,7 @@
 		FBD423531DD2A3C80079FF8A /* JuegoDeMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuegoDeMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD423571DD2A3C80079FF8A /* JuegoDeMemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoDeMemoriaUITests.swift; sourceTree = "<group>"; };
 		FBD423591DD2A3C80079FF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD423651DD2A6F10079FF8A /* JuegoDeMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = JuegoDeMemoria.playground; path = ../../JuegoDeMemoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				FBD423371DD2A3C80079FF8A /* AppDelegate.swift */,
+				FBD423651DD2A6F10079FF8A /* JuegoDeMemoria.playground */,
 				FBD423391DD2A3C80079FF8A /* ViewController.swift */,
 				FBD4233B1DD2A3C80079FF8A /* Main.storyboard */,
 				FBD4233E1DD2A3C80079FF8A /* Assets.xcassets */,
