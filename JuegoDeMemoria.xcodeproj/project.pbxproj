@@ -14,6 +14,8 @@
 		FBD423421DD2A3C80079FF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD423401DD2A3C80079FF8A /* LaunchScreen.storyboard */; };
 		FBD4234D1DD2A3C80079FF8A /* JuegoDeMemoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD4234C1DD2A3C80079FF8A /* JuegoDeMemoriaTests.swift */; };
 		FBD423581DD2A3C80079FF8A /* JuegoDeMemoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD423571DD2A3C80079FF8A /* JuegoDeMemoriaUITests.swift */; };
+		FBD423681DD2B4660079FF8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD423391DD2A3C80079FF8A /* ViewController.swift */; };
+		FBD423691DD2B4690079FF8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD423391DD2A3C80079FF8A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +49,6 @@
 		FBD423531DD2A3C80079FF8A /* JuegoDeMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuegoDeMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD423571DD2A3C80079FF8A /* JuegoDeMemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoDeMemoriaUITests.swift; sourceTree = "<group>"; };
 		FBD423591DD2A3C80079FF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBD423651DD2A6F10079FF8A /* JuegoDeMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = JuegoDeMemoria.playground; path = ../../JuegoDeMemoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				FBD423371DD2A3C80079FF8A /* AppDelegate.swift */,
-				FBD423651DD2A6F10079FF8A /* JuegoDeMemoria.playground */,
 				FBD423391DD2A3C80079FF8A /* ViewController.swift */,
 				FBD4233B1DD2A3C80079FF8A /* Main.storyboard */,
 				FBD4233E1DD2A3C80079FF8A /* Assets.xcassets */,
@@ -270,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD423681DD2B4660079FF8A /* ViewController.swift in Sources */,
 				FBD4234D1DD2A3C80079FF8A /* JuegoDeMemoriaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD423691DD2B4690079FF8A /* ViewController.swift in Sources */,
 				FBD423581DD2A3C80079FF8A /* JuegoDeMemoriaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +509,7 @@
 				FBD4235E1DD2A3C80079FF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBD4235F1DD2A3C80079FF8A /* Build configuration list for PBXNativeTarget "JuegoDeMemoriaTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +518,7 @@
 				FBD423611DD2A3C80079FF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBD423621DD2A3C80079FF8A /* Build configuration list for PBXNativeTarget "JuegoDeMemoriaUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +527,7 @@
 				FBD423641DD2A3C80079FF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
